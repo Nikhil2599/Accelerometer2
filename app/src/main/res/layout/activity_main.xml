@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/firstlayout">
+        <TextView
+            android:id="@+id/xValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/secondlayout"
+        android:layout_below="@id/firstlayout"
+        android:layout_marginTop="10sp">
+        <TextView
+            android:id="@+id/xGyroValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yGyroValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zGyroValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/thirdlayout"
+        android:layout_below="@id/secondlayout"
+        android:layout_marginTop="10sp">
+        <TextView
+            android:id="@+id/xMagnoValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/yMagnoValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zMagnoValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
